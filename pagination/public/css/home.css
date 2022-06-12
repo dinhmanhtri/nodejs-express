@@ -1,0 +1,26 @@
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+#pagination ul {
+  list-style: none;
+  display: flex;
+}
+
+#pagination .paginationjs-page,
+#pagination .paginationjs-ellipsis,
+#pagination .paginationjs-next,
+#pagination .paginationjs-prev {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#pagination .active {
+  background: palegreen;
+  color: white;
+}
